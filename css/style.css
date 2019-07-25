@@ -1,0 +1,78 @@
+.ourservice{
+    height:1100px;
+    width:100%;
+    padding:100px 0 60px;
+}
+.ourservice h1{
+    font-size:50px;
+    font-weight:bold;
+}
+.card{
+    margin-top:40px;
+}
+.ourteam{
+    height:700px;
+    padding:100px 0px 60px;
+    width:100%;
+}
+.ourteam h1{
+    font-size:50px;
+    font-weight:bold;
+}
+.teamsetting{
+    margin-top:70px;
+}
+
+
+@media (min-width:992px){
+
+}
+@media (min-width:768px) and (max-width:991px){
+    .headerset h2{
+        font-size:30px;
+    }
+    .headerset  h1{
+        font-size:60px;
+        font-weight:bold;
+    }
+ 
+    .ourservice{
+        height:1000px;
+       }
+    .ourteam{
+        height:500px;
+    }
+    .bgimg{
+        width:100%;
+    }
+}
+@media (min-width:575px) and (max-width:767px){
+    .headerset h2{
+        font-size:25px;
+    }
+    .headerset  h1{
+        font-size:45px;
+        font-weight:bold;
+    }
+  
+}
+@media (min-width:480px) and (max-width:574px){
+
+}
+@media (max-width:479px) {
+    .headerset h2{
+        font-size:20px;
+    }
+    .headerset  h1{
+        font-size:40px;
+        font-weight:bold;
+    }
+    .ourservice{
+        height:2600px;
+       }
+    .ourteam{
+        height:1300px;
+    }
+  
+  
+}
